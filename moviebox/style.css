@@ -1,0 +1,93 @@
+@font-face {
+ font-family: 'sans';
+ src: url('fonts/sans.eot');
+ src: local('sans'), url('fonts/sans.woff') format('woff'), url('fonts/sans.ttf') format('truetype'), url('fonts/sans.svg') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+* {
+	direction: rtl;
+	text-align: right;
+	font-family:sans;
+	margin: 0;
+  padding: 0;
+}
+html , body {
+	background-color:#ffffff;
+}
+a{
+	text-decoration: none;
+	font: 700 13px/15px 'sans';
+}
+.clear {
+    clear: both;
+}
+#BoxMain{width:100%;float:right;}
+#Box2{width:100%;float:right;text-align: center; margin-top : 10px;}
+.logo {width: 100px;height: 100px;}
+.logo2 {width: 200px;height: 280px;}
+.poster {width: 360px;height: 300px;}
+.title{
+	font-weight: bold;
+font-size: 19px;
+}
+.title2{
+    font-weight: bold;
+font-size: 17px;
+}
+.BoxLink{
+	background: #223dce;
+	width: 220px;
+	padding: 8px;
+	font-size: 17px;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 5px;
+}
+.Link{	
+	color: #fff;
+	width : 150%;
+}
+
+.logo2 {
+  border: 2px solid #555;
+}
+
+
+
+.table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+ 
+.column {
+  float: left;
+  width: 10%;
+  padding: 5px;
+}
+ 
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+P{
+text-align:right
+}
+ 
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 10px) {
+  .column {
+    width: 10%;
+  }
+}
